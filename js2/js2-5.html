@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0,
+    minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/js2-5.css">
+    <link rel="stylesheet" type="text/css" href="css/header-1.css">
+    <link rel="stylesheet" type="text/css" href="css/foot.css">
+    <title>js2-5</title>
+
+</head>
+<body>
+<div class="part">
+<div class="header">
+    <img class="header-png1" src="images/task7_2_1.png">
+    <img class="header-png2" src="images/task7_2_2.png">
+    <p>投票</p>
+</div>
+<div class="header-2">
+    <p class="header-2text">发言讨论结束，大家请投票</p>
+    <audio src="财富自由.mp3" controls="controls" preload id="music" hidden></audio>
+    <button id="a" onclick="a();" class="header-but" type="submit">
+         <div class="header-but1">
+             <div class="header-but2"></div>
+         </div>
+    </button>
+    <script>
+
+        function a() {
+            var audio = document.getElementById('music');
+            if (audio.paused) {
+                audio.play();//audio.play();// 播放
+            }
+            else {
+                audio.pause();// 暂停
+            }
+        }
+
+    </script>
+</div>
+<div class="header-3">
+     <div class="header-3-css"></div>
+     <p class="header-3-text">点击杀死平民</p>
+</div>
+<div class="content">
+
+
+    </div>
+<div class="foot">
+
+        <button class="button" id="butt">动手</button>
+</div>
+
+</div>
+
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/js2-5.js"></script>
+</body>
+</html>

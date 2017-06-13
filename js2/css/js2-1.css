@@ -1,0 +1,28 @@
+*{font-size: 62.5%;
+    margin:0;
+    padding: 0;}
+
+
+
+
+
+.part {max-width: 410px;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 auto;
+    color: #ffffff;
+    background: #29bde0;
+    }
+
+.p1 {font-size:3rem;
+    color: #ffffff;
+    padding: 20px 0}
+
+
+#ss {font-size: 3rem;}
+
+.img {max-width:80%;}
+
+.pp {padding: 30px 0;font-size: 4rem;
+    font-family: "Microsoft YaHei", serif;}

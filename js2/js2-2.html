@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0,
+    minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/header-1.css">
+    <link rel="stylesheet" type="text/css" href="css/js2-2.css">
+    <title>js2-2</title>
+</head>
+<body>
+
+<div class="part">
+
+    <div class="header">
+
+        <div class="header-1"><</div>
+
+        <img src="images/js2-2.png" class="header-img">
+        <p>参数设置</p>
+
+    </div>
+
+
+    <div class="main">
+
+        <div class="main-1">
+
+            <div class="main-1-1">
+               <p>玩<br/>家<br/>配<br/>比</p>
+            </div>
+
+            <div class="main-1-2">
+
+                <div class="main-1-2-1">
+                    <ul id="ul"></ul>
+                </div>
+
+                <div class="main-1-2-2" >
+                    <p id="set" style="cursor: pointer">点击设置</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="main-2">
+
+            <div class="main-2-1">水民词组</div>
+            <div class="main-2-1">幽灵词组</div>
+        </div>
+
+
+        <div class="main-3">
+
+            <p>玩家人数
+                <label for="text">
+                    <input type="text" maxlength="2" value="6" id="text" onblur="inputnum()" >
+                </label>
+                 人
+            </p>
+
+            <div class="main-3-1">
+                <button type="button" id="but1" class="butt" onclick="but1num()">-</button>
+                <label for="range">
+                <input type="range" name="range" class="range" min="6" max="18" step="1" value="6" id="range" onchange="rangenum()">
+                </label>
+                <button type="button" id="but2" class="butt" onclick="but2num()">+</button>
+            </div>
+        </div>
+
+
+
+        <button class="but" id="butt">去发牌</button>
+
+
+    </div>
+
+
+</div>
+
+
+<script src="js/js2-2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    }
+
+
+.foot {position: fixed;
+    max-width: 520px;
+    width: 100%;
+    padding: 2rem 0;
+    bottom: 0;
+    text-align: center;
+    background: #29bde0;
+}
+
+
+
+#butt {  width: 80%;
+    padding: 2rem 0;
+    border: none;
+    cursor: pointer;
+    background: #ff7f02;
+    text-align: center;
+    font-size: 3rem;
+    color: #ffffff;
+}
