@@ -1,0 +1,147 @@
+* {margin: 0;
+    padding: 0;
+    font-size: 62.5%;}
+
+html {@media screen and (max-width: 640px) and (min-width: 32rem)}
+
+
+
+
+.box {width: 100%;
+    max-width: 55rem;
+    min-width: 32rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*这里是页眉*/
+.header {width: 100%;
+    height: 6rem;
+    background: #29bde0;
+    border-bottom: 1px #ffffff solid;
+    line-height: 5.5rem;
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.header-png1 {float: left;
+    padding: 1.5rem 2rem;
+}
+.header-png2 {float: right;
+    padding: 1.5rem 2rem;
+}
+
+
+
+/*这里是主体*/
+.main {position: relative;
+    width: 100%;
+    height: 35rem;
+    background: #29bde0;
+}
+.main-png {width: 100%;
+    height: 15rem;
+    background: url("images/task7_3_3.png") no-repeat center;
+    background-size: 20rem 11.7rem;
+}
+.main-text {  width: 100%;
+    height: 9rem;
+    overflow: hidden;
+    background: #29bde0;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+.main-text-1{
+    font-size: 2.5rem;
+    color: #ffc865;
+    padding: .5rem 5rem .5rem 5rem;}
+
+/*蓝底字第二部分*/
+.main-text2 {  width: 100%;
+    height: 10rem;
+    overflow: hidden;
+    background: #29bde0;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+.main-text-2{
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: .5rem 5rem .5rem 5rem;
+}
+
+/*白底字部分*/
+.main-text3 {width: 100%;
+    height: 8rem;
+    overflow: hidden;
+    border-bottom: 1px #cccccc solid;
+    border-left: 1px #cccccc solid;
+    border-right: 1px #cccccc solid;
+    background: #ffffff;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+.main-text-3-1 {
+    font-size: 2rem;
+    color: #000000;
+    padding: .3rem 5rem .3rem 5rem;
+}
+.main-text-3-1 span{float: right;
+
+    font-size: .8rem;
+    color: #cccccc;
+    padding: .3rem 5rem .3rem 5rem;
+}
+.main-text-3-2 {
+    font-size: 1.5rem;
+    color: #a6a6a6;
+    padding: .3rem 5rem .3rem 5rem;
+}
+.main-text-3-3 {
+    font-size: 1.5rem;
+    color: #a6a6a6;
+    padding: .3rem 5rem .3rem 5rem;
+}
+
+
+/*页脚*/
+.footer {position: fixed;
+    width: 55rem;
+    max-width: 55rem;
+    min-width: 32rem;
+    height: 8rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: rgba(41,189,224,0.5);
+}
+.footer-1 {
+    width: 23rem;
+    height: 5rem;;
+    margin: 1.5rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    -moz-opacity:1;
+    opacity: 1;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgba(246,111,111,1);
+}
+.footer-2 {
+    width: 23rem;
+    height: 5rem;
+    margin: 1.5rem 1rem;
+    border: none;
+    border-radius: 1rem ;
+    -moz-opacity: 1;
+    opacity: 1;
+    cursor: pointer;
+    text-align: center;
+    background: #fbb435;
+}
+.footer-1-text {
+    font-size: 2rem;
+    color: #ffffff;
+}
+

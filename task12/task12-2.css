@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+.header {
+  width: 96%;
+  padding: .5rem 2%;
+  background: #5fc0cd;
+}
+.header .header-1 {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: .5rem;
+  background: #1b6d85;
+  overflow: hidden;
+}
+.header .header-1 .text {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 0 20% 0 0;
+  float: left;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+.header .header-1 .text .header-2 {
+  display: inline-block;
+  width: 50%;
+  float: right;
+  font-size: 2rem;
+  border-radius: .5rem;
+  color: #5fc0cd;
+  background: #ffffff;
+  text-align: center;
+}
+.header .img1 {
+  position: absolute;
+  width: 2rem;
+  right: 2rem;
+  top: 0;
+  margin-top: 1rem;
+}
+.main1 {
+  width: 100%;
+  overflow: hidden;
+}
+.main1 .sel {
+  display: inline-block;
+  width: 33.3%;
+  float: left;
+  height: 3rem;
+  font-size: 2rem;
+}
+.main2 {
+  width: 100%;
+}
+.main2 .ul {
+  width: 96%;
+  padding: 1rem 2%;
+  list-style: none  ;
+  border-bottom: 1px #cccccc solid;
+}
+.main2 .ul li {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  overflow: hidden;
+}
+.main2 .ul li .img5 {
+  float: left;
+  width: 1.5rem;
+  margin-top: .5rem;
+}
+.main2 .ul li .text1 {
+  padding-left: 3rem;
+  color: #cccccc;
+}
+.main2 .ul li .text2 {
+  padding-left: 3rem;
+}
+.main2 .ul li .text2 span {
+  float: right;
+  color: #f02121;
+}
+.main2 .ul li .img2 {
+  float: right;
+  width: 1rem;
+  height: 1.4rem;
+  margin-top: .6rem;
+}
+.foot {
+  width: 70%;
+  padding: .5rem 15%;
+  background: #fafafa;
+  text-align: center;
+}
+.foot .img6 {
+  width: 6rem;
+  height: 6rem;
+}
+.foot .foot1 {
+  float: left;
+  padding-top: .5rem;
+  font-size: 1.8rem;
+  color: #5fc0cd;
+  text-align: center;
+}
+.foot .foot2 {
+  float: right;
+  padding-top: .5rem;
+  font-size: 1.8rem;
+  color: #cccccc;
+  text-align: center;
+}

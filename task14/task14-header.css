@@ -1,0 +1,77 @@
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+.header-1 {
+  padding: 1rem 10%;
+  overflow: hidden;
+  font-size: 1.8rem;
+  color: #29b078;
+}
+.header-1 .header-img {
+  float: right;
+}
+.header-2 {
+  position: relative;
+  padding: 0 10%;
+  background: #29b078;
+  overflow: hidden;
+}
+.header-2 .header-2img {
+  float: left;
+  padding: 2.5rem 0;
+}
+.header-2 .header-png {
+  display: none;
+  position: absolute;
+  width: 3rem;
+  top: 3rem;
+  left: 70%;
+}
+.header-2 .header-ul {
+  position: relative;
+  margin: 0;
+  text-align: right;
+}
+.header-2 .header-ul li {
+  list-style: none;
+  padding: 3.2rem 2rem;
+  color: #ffffff;
+  font-size: 2rem;
+  display: inline-block;
+}
+.header-2 .header-ul li:hover {
+  border-bottom: .5rem #ffffff solid;
+}
+.header-2 .header-ul li a {
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  .header-2 .header-cc {
+    display: none;
+    text-align: center;
+  }
+}
+.header-2 .header-png {
+  display: block;
+}
+.header-2 .header-ul li {
+  display: inline;
+}
+.header-2 .boot {
+  display: block;
+}
+.header-2 .header-png:hover .header-cc {
+  display: block;
+}
+.header-2 .current {
+  display: block;
+}
+.header-2 .current:hover .header-ul li {
+  text-align: center;
+  display: block;
+}
+.header-2 .current:hover li a {
+  display: block;
+}

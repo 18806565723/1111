@@ -1,0 +1,103 @@
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fafafa;
+}
+.img {
+  position: relative;
+  text-align: center;
+  height: auto;
+}
+.img .img-1 {
+  width: 100%;
+}
+.h2 {
+  padding: 2rem 5%;
+  font-size: 2rem;
+}
+.h2 span {
+  color: #26a26f;
+}
+.main {
+  overflow: hidden;
+}
+.main1 {
+  width: 20%;
+  float: left;
+  margin: 0 3rem 0 5%;
+  background: #ffffff;
+  text-align: center;
+  border: 1px #cccccc solid;
+}
+.main1 .main1-div {
+  padding: 2rem 0;
+  border-bottom: solid 1px #cccccc;
+  font-size: 1.8rem;
+  font-weight: bold;
+  overflow: hidden;
+}
+.main1 .main1-ul {
+  text-align: center;
+  padding: 0 1rem;
+}
+.main1 .main1-ul li {
+  width: 35%;
+  margin-left: 35%;
+  list-style: circle;
+  padding: 1.5rem 1rem;
+  font-size: 1.5rem;
+  color: #26a26f;
+}
+.main1 .main1-ul li span {
+  color: #fc7c2c;
+  font-size: 1.5rem;
+}
+.main2 {
+  width: 60%;
+  float: left;
+  background: #ffffff;
+  margin-bottom: 10rem;
+  border: 1px #cccccc solid;
+}
+.main2 .main2-1 {
+  padding: 2rem 3rem;
+  border-bottom: 1px #cccccc solid;
+  overflow: hidden;
+}
+.main2 .main2-1 .main2-1-img {
+  padding: 3rem 2rem ;
+  float: left;
+  text-align: center;
+}
+.main2 .main2-1 .main2-2 {
+  padding: .5rem ;
+  float: left;
+  font-size: 2.5rem;
+  color: #cccccc;
+  line-height: 2.5rem;
+  text-indent: 2.5rem;
+}
+.main2 .main2-3 {
+  padding: 0 5%;
+}
+.main2 .main2-3 .main2-3-ul {
+  padding: 3rem 0 0 0;
+}
+.main2 .main2-3 .main2-3-ul li {
+  list-style: none;
+  padding-bottom: 3rem;
+  font-size: 1.8rem;
+  color: #cccccc;
+  text-indent: 2.5rem;
+}
+@media screen and (max-width: 600px) {
+  .main1 {
+    width: 88%;
+  }
+  .main2 {
+    width: 90%;
+  }
+}

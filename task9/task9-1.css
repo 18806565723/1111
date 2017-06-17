@@ -1,0 +1,507 @@
+* {margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+html {background: #fafafa;}
+
+
+@media screen and (max-width:720px) and (min-width:320px){
+
+
+
+    }
+
+div.item img{
+    width:100%;
+}
+div#carousel-example-generic{
+    width:100%;
+    margin:0 auto;
+}
+
+/*轮播的css*/
+
+
+
+.header {width: 100%;
+    height: 2rem;
+    padding: .5rem 0;
+    text-align: left;
+}
+.header-1 {
+    display: inline-block;
+    float: right;
+    width: 2.5rem;
+    height: 2.4rem;
+    margin: 0 1rem;
+}
+
+.header-2 {display: inline-block;
+    float: right;
+    width: 2.5rem;
+    height: 2.4rem;
+    margin: 0 1rem;
+}
+.header-3 {display: inline-block;
+    float: right;
+    width: 2.5rem;
+    height: 2.4rem;
+    margin: 0 1rem;
+}
+.header-text {font-size: 1.5rem;
+    color: #29b078;}
+
+.header-row-2 {position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header-green {width: 100%;
+
+    background: #29b078;
+}
+.header-green-box {position: relative;
+    width: 8rem;
+    height: 7.9rem;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    background: #29b078;
+}
+.header-green-text {padding-top: 3rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.header-green-box-1 {position: absolute;
+    display: block;
+    width: 100%;
+    height: .3rem;
+    background: #ffffff;
+    opacity: 0;
+}
+.header-green-box:hover .header-green-box-1{position: absolute;
+    display: block;
+    width: 100%;
+    height: .3rem;
+    background: #ffffff;
+    opacity: 1;
+}
+
+
+
+
+
+/********************/
+
+.bb {margin: 0;
+    border-color: #29b078;}
+
+
+.navbar-default {background-color: #29b078;}
+
+.navbar-collapse {
+    float: right;
+}
+
+.navbar-header {height: 9rem;}
+
+
+
+
+
+
+
+/********************/
+
+
+.lunbo {position: relative;
+    width: 100%;
+
+    background: #fafafa; }
+/*-----------------------------*/
+
+/*轮播下面的开始*/
+.main {position: relative;
+    width: 100%;
+    height: 43rem;
+    padding: 10rem 5% 2rem 5%;
+    background: #fafafa;
+}
+.main-div {position: relative;
+    height: 100%;
+    background: #fafafa;
+}
+/*3图的设置*/
+.main-div-png1 {position: relative;
+    width: 100%;
+    height: 6rem;
+    background: url("images/task8-1-5.png") center no-repeat;
+}
+.main-div-png2 {position: relative;
+    width: 100%;
+    height: 6rem;
+    background: url("images/task8-1-7.png") center no-repeat;
+}
+.main-div-png3 {position: relative ;
+    width: 100%;
+    height: 6rem;
+    background: url("images/task8-1-6.png") center no-repeat;
+}
+.main-div3 {position: relative;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.main-div3-text {line-height: 4rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.main-div4 {position: relative;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+.main-div4-text {padding: .5rem 10% .5rem 10%;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: #999999;
+}
+
+/*下面这个是最右边的那个四分一的css*/
+.main-div-1 {position: relative;
+    height: 20rem;
+    padding: 0 5% ;
+    background: #fafafa;
+    border-left: .1rem #999999 dashed ;
+    text-align: center;
+}
+
+.main-div-1-2 {position: relative;
+    width: 100%;
+    height: 20%;
+    padding-top: 10%;
+    padding-right: 20%;
+    color: #29b078;
+    font-size: 1.2rem;
+}
+.main-div-1-4 {position: relative;
+    width: 100%;
+    height: 20%;
+    padding-top: 10%;
+    padding-right: 20%;
+    color: #29b078;
+    font-size: 1.2rem;
+}
+.main-div-1-3 {position: relative;
+    width: 100%;
+    height: 20%;
+    color: #999999;
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+
+
+/*这里开始另一半*/
+.main-5 {position: relative;
+    width: 100%;
+    height: 7rem;
+    padding: 0 0 3rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    background: #fafafa;}
+
+
+.content1 {position: relative;
+    width: 100%;
+    padding: 0 2% 0 4%;
+    background: #fafafa;
+}
+.content1-1 {position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+
+.content1-box {width: 100%;
+    height: 100%;
+}
+
+
+.content1-2 { width:4rem;
+    height: 4rem;
+    float: left;
+    background: #ffffff;
+    -moz-border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    border-radius: 2rem;
+    border-color: #e7e6e7;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.5rem;
+}
+
+.content1-3 {position: relative;
+    width: 60%;
+    height: 4rem;
+    float: left;
+    padding: 0 0 0 1.5rem;
+    font-size: 1.7rem;
+    color: #afafaf;
+    line-height: 2.2rem;
+}
+.content1-5 {position: relative;
+    width: 60%;
+    height: 4rem;
+    float: left;
+    padding: 0 0 0 1.5rem;
+    font-size: 1.7rem;
+    color: #afafaf;
+    line-height: 4rem;
+}
+.content1-4 {position: relative;
+    width: 7%;
+    height: 4rem;
+    padding-left: 4rem;
+    float: left;
+    background: url("images/task8-1-9.png") no-repeat center;
+}
+
+
+
+/*这里是学员栏的CSS*/
+.content2 {position: relative;
+    width: 100%;
+    padding: 1% 0;
+    background: #fafafa;
+}
+.content2-div {position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0 2%;
+    background: #ffffff;
+}
+.content2-div-png1 {position: relative;
+    width: 100%;
+    height: 10rem;
+    background: url("images/task8-1-10.png") center no-repeat;
+    background-size: 7rem 7rem;
+}
+.content2-div-png2 {position: relative;
+    width: 100%;
+    height: 10rem;
+    background: url("images/task8-1-11.png") center no-repeat;
+    background-size: 7rem 7rem;
+}
+.content2-div-png3 {position: relative ;
+    width: 100%;
+    height: 10rem;
+    background: url("images/task8-1-12.png") center no-repeat;
+    background-size: 7rem 7rem;
+}
+.content2-div-png4 {position: relative ;
+    width: 100%;
+    height: 10rem;
+    background: url("images/task8-1-13.png") center no-repeat;
+    background-size: 7rem 7rem;
+}
+.content2-div3 {position: relative;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+.content2-div3-text {line-height: 4rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.content2-div4 {position: relative;
+    width: 100%;
+    height: 50%;
+    text-align: left;
+}
+.content2-div4-text {padding: .5rem 10% .5rem 10%;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: #999999;
+}
+
+.content2-net {position: relative;
+    width: 100%;
+    height: 3rem;
+    padding: 1rem 46.5% 5rem 47.5%;
+    background: #fafafa;
+}
+.content2-net-png {
+    width:1rem;
+    height:1rem;
+    float: left;
+    margin-right: .5rem;
+    background: #ffffff;
+    -moz-border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    border-radius: .5rem;
+    border: 1px #9a9a9a solid;
+    cursor: pointer;
+}
+
+
+
+/*这里开始是合作伙伴的css*/
+.content2-net2 {position: relative;
+    width: 100%;
+    height: 3rem;
+    padding: 7rem ;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    background: #fafafa;
+}
+.content3-div {position: relative;
+    height: auto;
+    margin: 0 auto;
+    background: #fafafa;
+    padding: 0 5% 5rem 5%;
+}
+.content3-div-div {position: relative;
+    width: 100%;
+    padding: 1rem 15rem;
+    overflow: hidden;
+    background: #ffffff;
+    text-align: center;
+}
+.content3-div-div-png1 {
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    background: url("images/task8-1-14.png") no-repeat center;
+}
+.content3-div-div-png2 {
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    background: url("images/task8-1-15.png") no-repeat center;
+}
+.content3-div-div-png3 {
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    background: url("images/task8-1-16.png") no-repeat center;
+}
+.content3-div-div-png4 {
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    background: url("images/task8-1-17.png") no-repeat center;
+}
+.content3-div-div-png5 {
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    background: url("images/task8-1-18.png") no-repeat center;
+}
+
+/*友情链接*/
+.content3-div2 {position: relative;
+    width: 100%;
+    background: #ffffff;
+}
+.content3-div2-1 {position: relative;
+    width: 100%;
+    height: 40%;
+    padding: .5rem 0 0 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 5rem;
+}
+.content3-div2-2 {position: relative;
+    width: 100%;
+    height: 60%;
+    padding: 0 6% 0 14%;
+}
+.content3-div2-ul {display: inline-block;
+    width: 100%;
+    white-space:nowrap;
+}
+.content3-div2-ul li {float: left;
+    padding-right: 4%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #999999;
+}
+
+
+/*最后一个div*/
+.content4-div {
+    width: 100%;
+    background: #26a26f;
+}
+.content4-div1 {position: relative;
+    width: 100%;
+    height: 100%;
+    padding-left:10%;
+    float: left;
+}
+.content4-div1-1 {position: relative;
+    width: 100%;
+
+    font-size: 1.8rem;
+    color: #ffffff;
+    line-height: 10rem;
+}
+.content4-div1-2 {position: relative;
+width: 100%;
+    font-size: 1.8rem;
+    color: #ffffff;
+    line-height: 9rem;
+}
+
+.content4-div2 {position: relative;
+    width: 100%;
+    float: left;
+}
+.content4-div3 li{font-size: 1.5rem;
+    color: #ffffff;
+    list-style:none;
+    line-height: 6rem;
+}
+
+.content4-div4 {position: relative;
+    width: 100%;
+    height: 15rem;
+    padding-top: 3%;
+    float: left;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+.content4-div5 {position: relative;;
+    width: 80%;
+    height: 70%;
+    float: left;
+    background: url("images/task8-1-19.png") no-repeat left;
+}
+
+
+
+
+
+.foot {position: relative;
+    width: 100%;
+    height: 2.5rem;
+    border-top:1px #ffffff solid ;
+    background: #29b078;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+

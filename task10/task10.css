@@ -1,0 +1,270 @@
+*{font-size: 62.5%;
+     margin: 0;
+     padding: 0;
+     }
+
+body {background: #fafafa;
+    }
+
+@media screen and (min-width: 200px) and (max-width: 800px){
+    .main-2-text {position: absolute;
+        top:.1rem;
+        left: 50%;
+    }
+}
+
+
+
+.header {width: 100%;
+    min-width: 40%;
+    height: 3rem;
+    padding: 0 8%;
+    line-height: 3rem;
+    font-size: 1.3rem;
+    color: #ffffff;
+    background: #1d7ad9;
+    }
+
+    .header-1 {  width: 5rem;
+        height: 100%;
+        float: right;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        line-height: 2rem;
+        color: #ffffff;
+        font-size: 1.5rem;
+        background: #1d7ad9;
+        }
+    .header-1:hover {color: #000000;
+        background: #ffffff;
+        }
+
+
+
+    /*主体部分*/
+.main {width: 100%;
+    }
+
+    .main-1 {position: relative;
+        width: 100%;
+        padding:.5rem 7% 1rem 8%;
+        overflow: hidden;
+        }
+
+        .main-1-but {display: inline-block;
+            width: 6.5rem;
+            height: 3rem;
+            margin: .5rem 1.5rem 0 1.5rem;
+            float: right;
+            border-radius: .5rem;
+            border: 1px #cecece solid;
+            cursor: pointer;
+            text-align: center;
+            line-height: 2rem;
+            font-size: 1.5rem;
+            background: #ffffff;
+            }
+                .main-1-but:hover {color: #ffffff;
+                    background: #1d7ad9;}
+
+
+/*4个css图形*/
+    .main-2 {width: 100%;
+        padding: 2rem 8% ;
+        }
+        .main-2-div {position: relative;
+            overflow:hidden;
+            margin-left: -.6rem;
+            margin-right: -.6rem;
+
+            }
+        .main-2-div1 {position: absolute;
+            top: .5rem;
+            height: .3rem;
+            width: 100%;
+            background: #ff7f02;
+
+            }
+        .main-2-div2 {
+            width: 1.4rem;
+            height: 1.4rem;
+            float: left;
+            background: #ff7f02;
+            -moz-border-radius: .7rem;
+            -webkit-border-radius: .7rem;
+            border-radius: .7rem;
+             margin-left: 50%;
+            }
+        .main-2-div3 {position: absolute;
+            top: .5rem;
+            height: .3rem;
+            width: 100%;
+            background: #cccccc;
+
+            }
+        .main-2-div4 {
+            width: 1.4rem;
+            height: 1.4rem;
+            float: left;
+            background: #cccccc;
+            -moz-border-radius: .7rem;
+            -webkit-border-radius: .7rem;
+            border-radius: .7rem;
+            margin-left: 50%;
+            }
+        .main-2-text {position: absolute;
+            top:.1rem;
+            left: 54%;
+            }
+        .main-2-p {margin-top: 2.5rem;
+            font-size: 1.5rem;
+            color: #ff7f02;
+            text-align: center;
+            }
+        .main-2-p2 {margin-top: 2.5rem;
+            font-size: 1.5rem;
+            color: #cccccc;
+            text-align: center;
+        }
+
+
+
+
+
+
+    .main-3 {width: 84%;
+        margin: .3rem 8%;
+        border-left: 3px #1d7ad9 solid;
+        font-size: 1.7rem;
+        font-weight: bold;
+        text-indent: .3rem;
+        }
+
+
+
+
+
+/*表单部分*/
+    .main-4 {position: relative;
+        width: 84%;
+        margin: .3rem 8% 4rem 8%;
+        overflow: hidden;
+        border: 1px #cccccc solid;
+        background: #ffffff;
+        }
+        .main-4-1 {position: relative;
+            width: 100%;
+            padding: .5rem 1rem;
+            border-bottom: solid 1px #cccccc;
+            background: #f3f3f3;
+            color: #1d7ad9;
+            font-size: 2rem;
+            text-indent: .5rem;
+            line-height: 2rem;
+            font-weight: bold;
+            }
+            .main-4-img1 {display: inline-block;
+                float: left;
+                }
+
+
+        .main-4-2 { width: 100%;
+            background: #fbfcff;
+            padding: 1.5rem 2rem;
+            border-bottom: 1px #cccccc solid;
+            }
+            .main-4-2-div {font-size: 2rem;
+                }
+                input[type=radio] + span {box-sizing: border-box;
+                    display: inline-block;
+                    width: 14px;
+                    height: 14px;
+                    margin: 0 10px;
+                    border: solid 1px #000000;
+                    border-radius: 7px;}
+                input[type=radio]:checked + span {box-sizing: border-box;
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    margin: 0 10px;
+                    border: solid 6px #1277dc;
+                    border-radius: 8px;}
+
+            .ppp {display: block;
+            }
+            .select1 {padding: .5rem 3.5rem .5rem 1rem;
+                border:#cccccc 1px solid;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                font-weight: bold;
+                font-size: 1.5rem;
+                color: #cccccc;
+                background: url("images/task10-4.png") 90% center no-repeat;
+                }
+
+            .cnm {width: 6rem;
+                height: 2rem;
+                }
+
+            .main-4-3 {width: 100%;
+                background: #fbfcff;
+                padding: 1.5rem 2rem 0 2rem;
+                }
+            .main-4-4 {width: 100%;
+                background: #fbfcff;
+                padding: 0 2rem 1.5rem 2rem;
+                border-bottom: 1px #cccccc solid;
+            }
+
+
+
+    .box {width: 100%;
+        padding: 7rem 0;
+        text-align: center;
+        }
+        .box1 {width: 10rem;
+            height: 3rem;
+            margin: 0 auto;
+            background: #e15053;
+            text-align: center;
+            font-size: 2.2rem;
+            font-weight: bold;
+            border-radius: .5rem;
+            border: none;
+            color: #ffffff;
+            }
+
+
+
+
+.foot {width: 100%;
+    padding: 5rem 0;
+    background: #f9f9f9;
+    }
+    .foot1 {padding: 0 5%;
+        overflow: hidden;
+        text-align: center;
+        font-size: 2rem;
+        color: #999999;
+        }
+        .ul li {float: left;
+            margin:0 2rem 2rem 2rem;
+            cursor: pointer;
+            list-style:none;
+            font-size: 1rem;
+        }
+        .img2 {float: right;
+            }
+
+
+.over {width: 100%;
+    background: #1d7ad9;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    }
+    .over1 {display: inline-block;
+        margin: 0 1rem;
+        line-height: 3rem;
+        }

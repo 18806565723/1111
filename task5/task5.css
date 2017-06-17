@@ -1,0 +1,64 @@
+*{font-size: 62.5%;margin: 0;padding: 0;}
+body{max-height: 100%;margin: 0;padding: 0;overflow: hidden;}
+.header{margin: 0;padding:0;background-color: #5fc0cd;width: 100%;height: 4rem;}
+
+.arrow{font-size:1.5rem;float:left;color:#fff; text-decoration: none;
+	display:inline-block;margin-top: 1.3rem;margin-left: 1rem;}
+
+.homepage{font-size:1.6rem;text-align:center;color:#fff;
+	padding:1.2rem 2rem 1.2rem 0;width:100%;}
+
+.name{width: 100%;height: 14rem;background: url(images/task5-1.png) no-repeat center;
+	background-size:cover;color: #fff; }
+
+.png{width:7rem;height:7rem;padding-right: 2.5rem;
+	float: left;position: absolute;top: 7.5rem;left: 2rem;}	
+
+.name-1{width: 70%;height: 3rem;padding: 5.5rem 0 5.5rem 11.5rem;}
+
+.name-1-1{font-size: 1.3rem;color: #fff;}
+
+.name-1-2{font-size: 1.1rem;color: #fff;margin: 0.5rem 0 0 0;background: 
+	url(images/task5-3.png) no-repeat left ;padding-left: 2rem;
+	background-size:2rem 2rem; }
+
+.form{width: 100%;height: 55rem;font-size: 1rem;}
+
+.skill{padding-left: 1rem;border-bottom:0.1rem solid #ccc;line-height: 4rem;
+height: 4rem; }
+
+.skill span{border-left: 0.3rem solid #5fc0cd;padding-left:0.5rem;font-size: 1.2rem;}
+
+.look{width: 98%;padding:0 1%  ;height: 20rem; }
+
+.look-u li{border-bottom: 0.1rem #ccc solid;width: auto;min-height: 
+2rem;line-height: 2rem;padding: 1.5rem 1rem;list-style: none;}
+
+.look-1{padding: 0 1.5rem 0 1.8rem;background: url(images/task5-4.png)  no-repeat
+left center	;float: left;font-size: 1.2rem;background-size: 1.7rem 1.2rem;}
+
+.look-2{padding: 0 1.5rem 0 1.8rem;background: url(images/task5-4.png) no-repeat 
+	left center
+	;float: left; font-size:1.2rem;background-size: 1.7rem 1.2rem;}
+
+.look-3{border-right: 0.1rem solid #ccc; float: left;color: #ccc;font-size: 1.2rem
+	;padding-right: 1.3rem;}
+
+.look-4{padding-left: 1.2rem;float: left;font-size: 1.2rem;color: black;  }
+
+.look-5{padding-left: 1.2rem;float: left;font-size: 1.2rem;color: #e26163; }
+
+footer{position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;}
+
+.foot{width:50%;height: 4.8rem;float: left;}
+
+.foot1{margin:0 0.5rem 0 0.5rem;background: #fff;box-shadow: inset 0 0 0
+ 0.2rem #5fc0cd;color: #5fc0cd;font-size: 1.5rem; width:98%;height: 4.5rem;display: inline-block;
+	border-radius: 0.5rem;cursor: pointer;border:none; float: left;}
+
+.foot2{border-radius: 0.5rem;background: #5fc0cd;color: #fff;float: left;display: inline-block;
+	font-size: 1.5rem ;cursor: pointer;width:98%;height: 4.5rem;border:none;margin:0 0.5rem;}

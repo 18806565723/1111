@@ -1,0 +1,99 @@
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+.part {
+  width: 50%;
+  margin: 0 auto;
+  background: #f0f0f0;
+}
+.header {
+  width: 96%;
+  overflow: hidden;
+  padding: 1.5rem 2%;
+  background: #2aabd2;
+}
+.header .img-header {
+  width: 1.5rem;
+  float: left;
+}
+.main1 {
+  width: 90%;
+  padding: 2.5rem 1%;
+  margin: 2rem 0 2rem 4%;
+  background: #ffffff;
+  font-size: 4rem;
+  text-align: center;
+  color: #cccccc;
+}
+.main1 span {
+  float: right;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.main2 {
+  position: relative;
+  width: 96%;
+  margin-left: 4%;
+  background: #ffffff;
+}
+.main2 .main2-div1 {
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom: 1px solid #d43f3a;
+  text-align: center;
+  font-size: 3rem;
+  color: #d28f1a;
+}
+.main2 .main2-div2 {
+  width: 88%;
+  padding: 4rem 0;
+  margin: 1.5rem 6%;
+  background: #2aabd2;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+.main2 .main2-div2 .sanjiao {
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border-top: 1.5rem solid transparent;
+  border-left: 1.5rem solid #de9214;
+  border-bottom: 1.5rem solid transparent;
+}
+.main2 .main2-div3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #cccccc;
+}
+.main2 .main2-div4 {
+  width: 54%;
+  height: 1rem;
+  padding: 1rem 0 1rem 46%;
+  text-align: center;
+}
+.main2 .main2-div4 .yuan {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin: 0 .5rem;
+  float: left;
+  background: #ece2f0;
+  -moz-border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+.main2 .main2-div4 .yuan:hover {
+  background: #2aabd2;
+}
+@media screen and (max-width: 600px) {
+  .part {
+    width: 100%;
+  }
+}
