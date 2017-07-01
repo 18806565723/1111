@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>angular test</title>
+    <style type="text/css">
+        #div1 {
+            width: 100%;
+            height: 200px;
+        }
+    </style>
+    <link rel="stylesheet" href="wangEditor-3.0.2/release/wangEditor.min.css">
+</head>
+<body>
+
+<div id="div1">
+    <p>请输入内容...</p>
+</div>
+<script src="lib/jquery-3.2.1.js"></script>
+<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script src="wangEditor-3.0.2/release/wangEditor.min.js"></script>
+<script type="text/javascript">
+    // 获取元素
+    var div = document.getElementById('div1');
+    // 生成编辑器
+    var editor = new wangEditor(div);
+    editor.create();
+</script>
+</body>
+</html>

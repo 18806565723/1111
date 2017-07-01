@@ -1,0 +1,32 @@
+.cbaa{background:url("../images/login-bg-orange.jpg")  ;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 100vh;}
+
+.part {  float: left;
+    width: 250px;
+    padding-top: 28px;
+    padding-bottom: 3000px;
+    margin-bottom: -3000px;
+    text-align: center;
+}
+
+.logo {margin: 0;
+    border: none;
+
+}
+
+
+.float {float: left;
+    width: 200px;
+    padding-top: 30px;
+    }
+
+.article {padding: 0;
+    margin: 0;
+}
+
+.ul {list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}

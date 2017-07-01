@@ -1,0 +1,140 @@
+<div>
+    <div>
+        <div class="pppp" style="margin-bottom: -1000px;">
+            <div class="panel panel-default">
+                <div class="panel-body quanbuctrl">
+                    <form class="form-horizontal">
+                        <div class="col-md-12 row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="control-label col-md-5">发布时间</label>
+                                    <div class="col-md-7">
+                                        <input type="date" class="form-control" ng-model="startAt">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="control-label col-md-5">一</label>
+                                    <div class="col-md-7">
+                                        <input type="date" class="form-control" ng-model="endAt">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="control-label col-md-5 text-word">类 型</label>
+                                    <div class="col-md-7">
+                                        <select class="form-control ng-pristine ng-valid ng-touched" ng-model="data.type">
+                                            <option value>全部</option>
+                                            <option value="0">首页</option>
+                                            <option value="1">找职位Banner</option>
+                                            <option value="2">找精英Banner</option>
+                                            <option value="3">行业大图</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="control-label col-md-5 text-word">状 态</label>
+                                    <div class="col-md-7">
+                                        <select class="form-control ng-pristine ng-valid ng-touched" ng-model="data.status">
+                                            <option value>全部</option>
+                                            <option value="2">上线</option>
+                                            <option value="1">草稿</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row  col-md-12">
+                            <div class="col-md-4 pull-right text-right">
+                                <button type="button" class="btn btn-danger" ng-click="qingkong()">清空</button>
+                                <button type="button" class="btn btn-success" ng-click="sousuo()" >搜索</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+
+                <div class="panel-heading">
+                    <b>用户列表</b>
+                    <button class="btn btn-xs btn-success pull-right" ui-sref="PageTab.Page2">+新增</button>
+                </div>
+
+                <div class="panel-body">
+                    <div class="table-responsive" style="border: 1px solid #ddd">
+                        <table class="table table-striped text-cen">
+                            <thead>
+                                <tr>
+                                    <th class="text-cen">ID</th>
+                                    <th class="text-cen">名称</th>
+                                    <th class="text-cen">类型</th>
+                                    <th class="text-cen">发布时间</th>
+                                    <th class="text-cen">修改时间</th>
+                                    <th class="text-cen">发布者</th>
+                                    <th class="text-cen">状态</th>
+                                    <th class="text-cen">操作</th>
+                                </tr>
+
+                                <tbody>
+                                    <tr ng-repeat="ab in inte track by $index" class="ng-scope">
+                                        <td>{{ab.id}}</td>
+                                        <td>{{ab.title}}</td>
+                                        <td>{{ab.type|type}}</td>
+                                        <td>{{ab.createAt|date:'yyyy-MM-dd'}}</td>
+                                        <td>{{ab.updateAt|date:'yyyy-MM-dd'}}</td>
+                                        <td>{{ab.author}}</td>
+                                        <td>{{ab.status|status}}</td>
+                                        <td>
+                                            <a type="button" class="btn btn-success" ng-click="onoff(ab.id,ab.status)">{{ab.status===1?"上线":"下线"}}</a>
+                                            <a type="button" class="btn btn-success" ui-sref="PageTab.Page3({id:ab.id})">编辑</a>
+                                            <a type="button" class="btn btn-danger" ng-click="deletearticle(ab.id)">删除</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </thead>
+                        </table>
+                    </div>
+                    <ul class="pagination pull-right">
+                        <!--<style>-->
+                            <!--.pagination>li>a[disabled],-->
+                            <!--.pagination>li>a[disabled]:hover {-->
+                                <!--cursor: not-allowed;-->
+                            <!--}-->
+                        <!--</style>-->
+                        <li>
+                            <a ng-click="home()" >首页</a>
+                        </li>
+                        <li>
+                            <a ng-click="retreat()"><</a>
+                        </li>
+                        <li>
+                            <a ng-click="advance()">></a>
+                        </li>
+                        <li>
+                            <a ng-click="last()">末页</a>
+                        </li>
+                        <li>
+                            去第
+                            <input type="number" class="inputli text-cen" ng-model="skip" ng-change="some()">
+                            页
+                            <a class="pull-right" style="border-radius: 0" ng-click="yes(skip)">确定</a>
+                        </li>
+                    </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

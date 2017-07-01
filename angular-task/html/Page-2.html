@@ -1,0 +1,93 @@
+<div>
+    <div>
+        <div class="pppp" style="margin-bottom: -1000px;">
+            <ui-view class="ng-scope">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <strong>新增Article</strong>
+                    </div>
+                       <div class="panel-body">
+                        <form class="form-horizontal" name="myForm" >
+                            <div class="form-group" >
+                                <label class="control-label col-md-2">标题名称</label>
+                                <div class="col-md-8 ">
+                                    <input class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required"
+                                           ng-model="data.title"
+                                           name="myField"
+                                           type="text"
+                                           ng-minlength="5"
+                                           required/>
+                                    <div ng-messages="myForm.myField.$error">
+                                        <div ng-message="required" style="color: red">*必填</div>
+                                        <div ng-message="minlength" style="color: red">*长度不够</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                            <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="control-label col-md-2 text-word">类 型</label>
+                                <div class="col-md-2 ">
+                                    <select class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" ng-model="data.type"
+                                    >
+                                        <option value>全部</option>
+                                        <option value="0">首页</option>
+                                        <option value="1">找职位Banner</option>
+                                        <option value="2">找精英Banner</option>
+                                        <option value="3">行业大图</option>
+                                    </select>
+                                </div>
+                            </div>
+                            </form>
+
+                            <form class="form-horizontal" name="my">
+                            <div class="form-group">
+                                <label class="control-label col-md-2">跳转链接</label>
+                                <div class="col-md-8 ">
+                                    <input class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" ng-model="data.url"
+                                           name="myFiel"
+                                           type="text"
+                                           ng-minlength="5"
+                                           required/>
+                                    <div ng-messages="my.myFiel.$error">
+                                        <div ng-message="required" style="color: red">*必填</div>
+                                        <div ng-message="minlength" style="color: red">*长度不够</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </form>
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="control-label col-md-2 text-word">说 明</label>
+                                <div class="col-md-9" ng-controller="editorCtrl">
+
+                                    <div id="editor-trigger" ng-model="data.content" contenteditable="true">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <br/><br/><br/><br/><br/><br/><br/>
+                        <form class="form-horizontal">
+                            <up-loader label-name="配 图" class="text-word" ng-model="data.img"></up-loader>
+                            <div class="form-group">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8">
+                                    <button type="button" class="btn btn-success" ng-click="draft()" ng-model="data.status"
+                                            ng-disabled="!data.title||!data.type||!data.img||!data.url==undefined">立即上线</button>
+                                    <button type="button" class="btn btn-success" ng-click="high()" ng-model="data.status"
+                                            ng-disabled="!data.title||!data.type||!data.img||!data.url==undefined">存为草稿</button>
+
+                                    <button type="button" class="btn btn-default pull-right" ui-sref="PageTab.Page1">取消</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                <!--</form>-->
+                </div>
+            </ui-view>
+        </div>
+    </div>
+</div>
+
+
